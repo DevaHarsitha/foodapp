@@ -8,7 +8,9 @@ const path = require('path');
 const app = express();
 
 // ── MIDDLEWARE ──
-app.use(cors());
+
+
+app.use(cors({ origin: '*'}));
 app.use(express.json());
 
 // ✅ SERVE FRONTEND (IMPORTANT FIX)
@@ -175,5 +177,5 @@ app.post('/api/orders', authMiddleware, async (req, res) => {
 const PORT = 5000;
 
 app.listen(PORT, () => {
-  console.log(`✅ CraveX running at http://localhost:${PORT}`);
+  console.log(`✅ CraveX running at https://foodapp-yuy4.onrender.com`);
 });
