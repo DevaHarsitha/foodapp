@@ -3,6 +3,7 @@
 > A full-stack food ordering web application built with HTML, CSS, JavaScript, Node.js, Express.js, and MySQL.
 
 **Live Demo:** https://foodapp-yuy4.onrender.com/
+
 **Source Code:** https://github.com/DevaHarsitha/foodapp
 
 ---
