@@ -244,29 +244,6 @@ The repository includes `database.sql` for database creation and initial data se
 * Git
 * npm
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/DevaHarsitha/foodapp.git
-cd foodapp
-```
-
-### Install Backend Dependencies
-
-```bash
-cd backend
-npm install
-```
-
-### Configure MySQL
-
-Create the database using the provided SQL file:
-
-```bash
-mysql -u root -p < database.sql
-```
-
-Then configure your MySQL credentials in the backend configuration.
 
 ### Start the Backend
 
